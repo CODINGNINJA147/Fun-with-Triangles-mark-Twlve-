@@ -1,0 +1,110 @@
+@import url('https://fonts.googleapis.com/css2?family=Trispace:wght@200&display=swap');
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    color: white;
+}
+body{
+    background-color: black;
+}
+/* navbar */
+.navbar{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    align-items: center;
+    position: sticky;
+    margin: 0px 0px 20px 0px;
+    font-family: 'trispace',sans-serif;
+    font-weight: bold; 
+    
+}
+.heading a{
+    text-decoration: none;
+    color: black;
+}
+.navbar-class ul{
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    margin: 0px 0px 0px 500px; 
+
+}
+.navbar-class ul li{
+    list-style: none;
+    font-size: 20px;
+    margin: 24px 0px 25px 32px;
+}
+.navbar-class ul li a{
+    text-decoration: none;
+    color: black;
+    color: white;
+    padding: 0.5rem;
+    font-size: 1rem;
+}
+/* main */
+.main{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    
+}
+.input{
+    display: flex;
+    flex-direction: column;
+    gap: 30px;
+}
+.main h2{
+    color: rgb(174, 9, 9);
+    margin: 50px;
+    font-size: 40px;
+    font-family: 'trispace',sans-serif;
+    font-weight: bold;
+}
+.input label {
+    font-size: 25px;
+    font-weight: bold;
+}
+
+.input input {
+    width: 300px;
+    height: 30px;
+    color: black;
+    font-weight: bold;
+    font-size: medium;
+    text-align: center;
+}
+
+#btn-check {
+    margin: 38px 100px 30px 47px;
+    width: 100px;
+    height: 33px;
+    border: none;
+    border-radius: 6px;
+    color: black;
+    background-color: rgb(165, 6, 6);
+    font-weight: bold;
+    font-size: medium;
+
+}
+.output{
+    font-size: 32px;
+}
+
+
+footer{
+    height: 100px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-top: 170px;
+
+
+}
+footer a{
+    text-decoration: none;
+    padding: 30px;
+    font-size: 20px;
+    color: white;
+}

@@ -1,0 +1,129 @@
+@import url('https://fonts.googleapis.com/css2?family=Trispace:wght@200&display=swap');
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    color: white;
+}
+body{
+    background-color: rgb(102, 3, 3);
+}
+/* navbar */
+.navbar{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    align-items: center;
+    margin: 0px 0px 20px 0px; 
+    
+    font-family: 'trispace',sans-serif;
+    font-weight: bold;
+}
+.heading a{
+    text-decoration: none;
+    color: black;
+}
+.navbar-class ul{
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    margin: 0px 0px 0px 500px; 
+    
+}
+.navbar-class ul li{
+    list-style: none;
+    font-size: 20px;
+    margin: 24px 0px 25px 32px;
+}
+.navbar-class ul li a{
+    text-decoration: none;
+    color: black;
+    color: white;
+    font-size: 1rem;
+    padding: 0.5rem;
+}
+/* main */
+h1{
+    font-family: 'trispace',sans-serif;
+    text-align: center;
+    font-size: 2rem;
+}
+h3{
+    font-family: 'trispace',sans-serif;
+    text-align: center;
+    margin: 20px;
+    font-size: 20px;
+}
+
+h2{
+    font-family: 'trispace',sans-serif;
+    text-align: center;
+    font-size: 3.5rem;
+    padding-top: 2rem;
+    padding-bottom: 2rem;
+    color: black;
+    font-weight: 1000;
+    font-weight: bold;
+}
+main {
+    margin: 0 0 7rem;
+}
+
+main h1 {
+    margin: 1rem;
+}
+
+.container {
+    width: 65%;
+    margin: 1rem auto;
+    font-size: larger;
+    padding: 1rem 0;
+    border: 2px solid black;
+    border-radius: 1rem;
+    text-align: center;
+}
+
+.container p {
+    margin: 1rem 0;
+}
+
+
+label {
+    font-size: larger;
+    color: var(--primary-color);
+    width: 256px;
+    font-size: larger;
+    margin: 0.2rem;
+}
+button {
+    background: black;
+    border: none;
+    color: white;
+    padding: 0.7rem 1rem;
+    border-radius: 0.5rem;
+    font-size: large;
+    cursor: pointer;
+    outline: #fff;
+    margin: 1rem auto;
+    display: block;
+}
+.outputDiv{
+    font-size: 40px;
+    text-align: center;
+}
+
+footer{
+    height: 100px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-top: 140px;
+
+
+}
+footer a{
+    text-decoration: none;
+    padding: 30px;
+    font-size: 20px;
+    color: white;
+}

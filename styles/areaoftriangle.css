@@ -1,0 +1,105 @@
+@import url('https://fonts.googleapis.com/css2?family=Trispace:wght@200&display=swap');
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+body{
+    background-color: rgb(122, 34, 48);
+}
+.navbar{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    align-items: center;
+    position: sticky;
+    margin: 0px 0px 20px 0px;
+    font-family: 'trispace',sans-serif;
+    font-weight: bold; 
+    
+}
+.heading a{
+    text-decoration: none;
+    color: black;
+}
+.navbar-class ul{
+    display: flex;
+    flex-direction: row;
+    /* gap: 20px;s */
+    justify-content: center;
+    margin: 0px 0px 0px 500px; 
+
+}
+.navbar-class ul li{
+    list-style: none;
+    font-size: 20px;
+    margin: 24px 0px 25px 32px;
+}
+.navbar-class ul li a{
+    text-decoration: none;
+    color: black;
+    padding: 0.5rem;
+    font-size: 1rem;
+}
+h2{
+    text-align: center;
+    font-family: 'trispace',sans-serif;
+    font-size: 2rem;
+    padding-top: 2rem;
+    font-weight: bold;
+    font-size: 2.8rem;
+}
+.container{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin: 65px;
+    color: black;
+
+}
+label{
+    margin: 10px;
+    font-size: 25px;
+    font-weight: bold;
+}
+
+
+input {
+    height: 35px;
+    width: 250px;
+    font-weight: bold;
+    font-size: medium;
+    text-align: center;
+}
+
+
+#btn-calculate {
+    margin: 34px;
+    width: 120px;
+    height: 40px;
+    border: none;
+    border-radius: 9px;
+    background-color: darkred;
+    color: white;
+    font-weight: bold;
+    font-size: medium;
+}
+#output-box{
+    font-size: 30px;
+}
+
+footer{
+    height: 100px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-top: 140px;
+
+
+}
+footer a{
+    text-decoration: none;
+    padding: 30px;
+    font-size: 20px;
+    color: white;
+}

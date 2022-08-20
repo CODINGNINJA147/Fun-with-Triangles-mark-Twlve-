@@ -1,0 +1,102 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css">
+    <link rel="stylesheet" href="/styles/quiz.css">
+    <title>Quiz</title>
+</head>
+<body>
+    <navbar class="navbar">
+        <div class="heading">
+           <a href="/index.html"> <h1>Fun with triangles</h1></a>
+        </div>
+
+        <div class="navbar-class">
+            <ul>
+                <li> <a href="/index.html">IS TRIANGLE</a> </li>
+                <li> <a href="/pages/quiz.html">QUIZ</a> </li>
+                <li> <a href="/pages/hypotenuse.html">HYPOTENUSE</a> </li>
+                <li> <a href="/pages/areaoftriangle.html">AREA OF TRIANGLE</a> </li>
+            </ul>
+        </div>
+        
+
+    </navbar>
+    <h2>Quiz on Triangles...!</h2>
+    <h3>for each correct answer you will get 1 point</h3>
+    <form id="quiz-form">
+        <div class="container">
+            <p>This type of triangle has one 90 degree angle.</p>
+            <label><input type="radio" name="question1" value="acute" required/>acute</label>
+            <label><input type="radio" name="question1" value="obtuse" required/>obtuse</label>
+            <label><input type="radio" name="question1" value="right" required/>right</label>
+        </div>
+        <div class="container">
+            <p>A triangle where all sides are congruent is called</p>
+            <label><input type="radio" name="question2" value="Scalene" required/>Scalene</label>
+            <label><input type="radio" name="question2" value="Isosceles" required/>Isosceles</label>
+            <label><input type="radio" name="question2" value="Equilateral" required/>Equilateral</label>
+        </div>
+         <div class="container ">
+            <p>An isosceles triangle has</p>
+            <label><input type="radio" name="question3" value="No congruent sides" required/>No congruent sides</label>
+            <label><input type="radio" name="question3" value="2 congruent sides" required/>2 congruent sides</label>
+            <label><input type="radio" name="question3" value="3 congruent sides" required/>3 congruent sides</label>
+        </div> 
+         <div class="container">
+            <p>All 3 interior angles of a triangle add up to</p>
+            <label><input type="radio" name="question4" value="90 degrees" required/>90 degrees</label>
+            <label><input type="radio" name="question4" value="180 degrees" required/>180 degrees</label>
+            <label><input type="radio" name="question4" value="360 degrees" required/>360 degrees</label>
+        </div>
+        <div class="container">
+            <p>How many sides does a triangle have?</p>
+            <label><input type="radio" name="question5" value="3" required/>3</label>
+            <label><input type="radio" name="question5" value="2" required/>2</label>
+            <label><input type="radio" name="question5" value="1" required/>1</label>
+        </div> -->
+         <div class="container">
+            <p>What is the third angle for the triangle where angle1 = 45° and angle2 = 45°?</p>
+            <label><input type="radio" name="question6" value="45°" required/>45°</label>
+            <label><input type="radio" name="question6" value="90°" required/>90°</label>
+            <label><input type="radio" name="question6" value="60°" required/>60°</label>
+        </div>
+        <div class="container">
+            <p>Which of the following triangles are always similar?</p>
+            <label><input type="radio" name="question7" value="Equilateral triangle" required/>Equilateral triangle</label>
+            <label><input type="radio" name="question7" value="Isosceles triangle" required/>Isosceles triangle</label>
+        </div>
+        <div class="container ">
+            <p>A triangle can have</p>
+            <label><input type="radio" name="question8" value="One right angle" required/>One right angle</label>
+            <label><input type="radio" name="question8" value="Two right angle" required/>Two right angle</label>
+        </div>
+        <div class="container">
+            <p>The perimeter of scalene triangle with sides a, b, c is</p>
+            <label><input type="radio" name="question9" value="a + b + c" required/>a + b + c</label>
+            <label><input type="radio" name="question9" value="2a" required/>2a</label>
+            <label><input type="radio" name="question9" value="None of these" required/>None of these</label>
+        </div>
+        <div class="container">
+            <p>A scalene triangle has ___ lines of symmetry</p>
+            <label><input type="radio" name="question10" value="two" required/>two</label>
+            <label><input type="radio" name="question10" value="no" required/>no</label>
+            <label><input type="radio" name="question10" value="15" required/>15</label>
+        </div>
+        <button id="btn-submit">Submit Answers</button> 
+    </form>
+    <div class="outputDiv">
+
+    </div>
+    <footer>
+        <a href="https://www.linkedin.com/in/sohail-khan-734701206" target="  _blank " class="fa fa-2x fa-linkedin-square pr-4 social-logo " aria-hidden="true "></a>
+        <a href="" target=" _blank " class="fa fa-2x fa-twitter-square pr-4 social-logo" aria-hidden="true"></a>
+        <a href="https://github.com/CODINGNINJA147" target=" _blank " class="fa fa-2x fa-github-square pr-4 social-logo" aria-hidden="true"></a>
+        <a href="" target=" _blank " class="fa fa-2x fa-envelope-o pr-4 social-logo" aria-hidden="true "></a>
+    </footer>
+    <script src="/scripts/quiz.js"></script>
+</body>
+</html>
