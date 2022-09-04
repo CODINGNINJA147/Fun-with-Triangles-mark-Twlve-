@@ -20,9 +20,9 @@ function calculate (a,b,c){
     return sum
 }
 function isTriangle(){
-   let angle1 =  angleSum[1].value
+   let angle1 =  angleSum[0].value
    let angle2 =  angleSum[1].value
-   let angle3 = angleSum[1].value
+   let angle3 = angleSum[2].value
   if(angle1<0 || angle2<0 || angle3<0){
     outputDiv.innerText = `The value should not be negative`
   }else if(!angle1 || !angle2 || !angle3){
