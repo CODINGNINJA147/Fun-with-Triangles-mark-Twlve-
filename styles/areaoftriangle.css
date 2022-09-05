@@ -79,8 +79,8 @@ input {
     height: 40px;
     border: none;
     border-radius: 9px;
-    background-color: White;
-    color: Black;
+    background-color: Black;
+    color: White;
     font-weight: bold;
     font-size: medium;
 }
